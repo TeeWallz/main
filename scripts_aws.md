@@ -4,7 +4,7 @@
 # PAckage and upload Lambda ZIP file
   https://docs.aws.amazon.com/lambda/latest/dg/python-package.html
 
-# CloudFormation Makefile
+# CloudFormation Lambda Upload Makefile
 
     SHELL=/bin/bash
     .PHONY: init package clean
