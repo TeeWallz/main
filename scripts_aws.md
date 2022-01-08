@@ -56,3 +56,25 @@
 
     clean:
       rm -rf ./build
+      
+Permission to allow access to S3
+
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "ListObjectsInBucket",
+                "Effect": "Allow",
+                "Action": ["s3:ListBucket"],
+                "Resource": ["arn:aws:s3:::bucket-name"]
+            },
+            {
+                "Sid": "AllObjectActions",
+                "Effect": "Allow",
+                "Action": "s3:*Object",
+                "Resource": ["arn:aws:s3:::bucket-name/*"]
+            }
+        ]
+    }
+
+
