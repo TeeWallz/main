@@ -14,5 +14,5 @@
 |------------------------------------------------------|-------------------------------------------------------------|
 | https://github.com/TeeWallz/homepage                 | https://homepage.waller.rocks/                              |
 | https://github.com/TeeWallz/monty_balboa             | https://howmanydayssincemontaguestreetbridgehasbeenhit.com/ |
-| https://github.com/TeeWallz/pokemon-card-collection  |                                                             |
+| https://github.com/TeeWallz/pokemon-card-collection  | http://pokemon-collection.tomekwaller.com/epic              |
 | https://github.com/TeeWallz/reddit_nsfw_tagger       |                                                             |
